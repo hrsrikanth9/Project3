@@ -1,0 +1,10 @@
+<mvc:View controllerName="project3.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <Button id="_IDGenbutton" text="click" type="Emphasized" press="onclick"/>
+    <Input id="_IDGenInput"/>
+    </content>
+    </Page>
+</mvc:View>
